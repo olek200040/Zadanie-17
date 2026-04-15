@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Galeria - Lloret de Mar</title>
+<link rel="stylesheet" href="wakacje.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- menu -->
+<nav>
+  <div class="logo">Lloret de Mar ☀️</div>
+  <ul>
+    <li><a href="wakacje.html">Strona główna</a></li>
+    <li><a href="galeria.html">Galeria</a></li>
+    <li><a href="info.html">Informacje</a></li>
+  </ul>
+</nav>
+
+<!-- galeria -->
+<section class="content">
+  <h2>Galeria zdjęć z Lloret de Mar</h2>
+
+  <div class="slider">
+    <!-- przycisk poprzedniego zdjęcia -->
+    <button onclick="prevSlide()">⟵</button>
+
+    <!-- aktualne zdjęcie -->
+    <img id="sliderImage" src="https://odkryjwakacje.pl/wp-content/uploads/elementor/thumbs/Lloret-de-Mar-%E2%80%93-co-zwiedzac-Najciekawsze-atrakcje-kurortu-na-Costa-Bravaatrakcje-r6biuvsu23tvz2pskmw6klv433i43owh50asx05kps.jpg" alt="Lloret de Mar">
+
+    <!-- przycisk następnego zdjęcia -->
+    <button onclick="nextSlide()">⟶</button>
+  </div>
+</section>
+
+<!-- stopka -->
+<footer>
+  <p>Piękne widoki Costa Brava</p>
+</footer>
+
+<script src="wakacje.js"></script>
+</body>
+</html>

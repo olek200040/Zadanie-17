@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Informacje - Lloret de Mar</title>
+<link rel="stylesheet" href="wakacje.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- menu -->
+<nav>
+  <div class="logo">Lloret de Mar ☀️</div>
+  <ul>
+    <li><a href="wakacje.html">Strona główna</a></li>
+    <li><a href="galeria.html">Galeria</a></li>
+    <li><a href="info.html">Informacje</a></li>
+  </ul>
+</nav>
+
+<!-- ciekawostki -->
+<section class="content">
+  <h2>Ciekawostki o mieście</h2>
+  <!-- przycisk pokazujący losową ciekawostkę -->
+  <button onclick="showFact()">Pokaż ciekawostkę</button>
+  <p id="factBox"></p>
+</section>
+
+<!-- quiz -->
+<section class="content">
+  <h2>Quiz – Czy znasz Lloret de Mar?</h2>
+  <div id="quiz"></div>
+  <button onclick="checkQuiz()">Sprawdź wynik</button>
+  <p id="result"></p>
+</section>
+
+<!-- stopka -->
+<footer>
+  <p>Sprawdź swoją wiedzę ☀️</p>
+</footer>
+
+<script src="wakacje.js"></script>
+</body>
+</html>
